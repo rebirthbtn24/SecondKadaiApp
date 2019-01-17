@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ココに入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e3k-Vv-4j4">
-                                <rect key="frame" x="100" y="111" width="120" height="30"/>
+                                <rect key="frame" x="40" y="111" width="240" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -41,14 +41,14 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KIB-Uc-jDQ" secondAttribute="trailing" constant="20" id="85x-Jg-QWq"/>
-                            <constraint firstItem="e3k-Vv-4j4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="LUb-Mz-xL2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e3k-Vv-4j4" secondAttribute="trailing" constant="100" id="T80-Ii-isK"/>
                             <constraint firstItem="5dv-Ro-zFD" firstAttribute="top" secondItem="e3k-Vv-4j4" secondAttribute="bottom" constant="10" id="U98-kI-1oh"/>
                             <constraint firstItem="KIB-Uc-jDQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VTt-Sp-eZo"/>
+                            <constraint firstItem="e3k-Vv-4j4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="ca8-xC-lGB"/>
                             <constraint firstItem="KIB-Uc-jDQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="dQx-J3-k6c"/>
                             <constraint firstItem="5dv-Ro-zFD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="nhB-xf-IRf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5dv-Ro-zFD" secondAttribute="trailing" constant="100" id="tXX-Z4-4fS"/>
                             <constraint firstItem="e3k-Vv-4j4" firstAttribute="top" secondItem="KIB-Uc-jDQ" secondAttribute="bottom" constant="10" id="xTz-Ka-kKC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e3k-Vv-4j4" secondAttribute="trailing" constant="40" id="yxs-yD-TRm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -69,7 +69,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JY-ro-Nak">
-                                <rect key="frame" x="90" y="80" width="140" height="21"/>
+                                <rect key="frame" x="20" y="80" width="280" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -85,11 +85,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vF7-18-Tel" firstAttribute="trailing" secondItem="hkd-Ys-w7V" secondAttribute="trailing" constant="100" id="49c-aJ-E1H"/>
+                            <constraint firstItem="vF7-18-Tel" firstAttribute="trailing" secondItem="9JY-ro-Nak" secondAttribute="trailing" constant="20" id="82n-Pr-Mcb"/>
+                            <constraint firstItem="9JY-ro-Nak" firstAttribute="leading" secondItem="vF7-18-Tel" secondAttribute="leading" constant="20" id="BSh-nZ-vvm"/>
                             <constraint firstItem="9JY-ro-Nak" firstAttribute="top" secondItem="vF7-18-Tel" secondAttribute="top" constant="60" id="I0q-Nu-KUd"/>
-                            <constraint firstItem="9JY-ro-Nak" firstAttribute="leading" secondItem="vF7-18-Tel" secondAttribute="leading" constant="90" id="Yjq-fc-OaH"/>
                             <constraint firstItem="hkd-Ys-w7V" firstAttribute="leading" secondItem="vF7-18-Tel" secondAttribute="leading" constant="100" id="nyw-G3-ZgD"/>
                             <constraint firstItem="hkd-Ys-w7V" firstAttribute="top" secondItem="9JY-ro-Nak" secondAttribute="bottom" constant="60" id="pT6-PH-0l6"/>
-                            <constraint firstItem="vF7-18-Tel" firstAttribute="trailing" secondItem="9JY-ro-Nak" secondAttribute="trailing" constant="90" id="xkT-0d-rU8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vF7-18-Tel"/>
                     </view>
